@@ -1,10 +1,11 @@
 .heading {
     text-align: center;
     position: absolute;
-    top: 20%;
     left: 50%;
     transform: translate(-50%,-50%);
-
+    background-color:#003366;
+    color: white;
+    padding: 5px 10px;
 }
 .container {
     display:flex;
@@ -12,6 +13,11 @@
     align-items: center;
     gap: 20px;
     margin-top: 20px;
+    top: 50%;
+    transform: translate(00%, 250%)
+}
+.container :hover{
+    background-color: #0056b3;
 }
 
 .calculate {
@@ -26,10 +32,5 @@
     width: auto;
     cursor: pointer;
     text-decoration: none;
-    transition: background-color 0.3s ease;
 
-}
-
-.calculate :hover{
-    background-color: #0056b3;
 }
